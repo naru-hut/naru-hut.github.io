@@ -3,17 +3,17 @@
     {
       "build": "1.0-win",
       "patch": "unionmax-guide",
-      "release": "1.0",
+      "release": "1.0.1-test",
       "target": "unionmax"
     },
     {
       "build": "1.0-win",
       "patch": "unionmax-ko",
-      "release": "1.0.1",
+      "release": "1.0.2-test",
       "target": "unionmax"
     }
   ],
-  "expires": "2027-10-18T12:20:37.729206136Z",
+  "expires": "2027-10-18T15:05:11.580309303Z",
   "format": "naru-source/3",
   "patches": [
     {
@@ -345,9 +345,339 @@
         }
       ],
       "target": "unionmax"
+    },
+    {
+      "archive": {
+        "prefix": "",
+        "sha256": "09ba5b72fba6f6bac2d8c24656e474751c490d6f8117806bb32a3b2429ed96df",
+        "size": 15144505,
+        "url": "https://github.com/naru-hut/naru-hut.github.io/releases/download/p-test-kr-e197525370377d57218aadf6d9b4606190697b3234d5f80a0bcecc2379257bc3/patch-e197525370377d57218aadf6d9b4606190697b3234d5f80a0bcecc2379257bc3.zip"
+      },
+      "builds": [
+        "1.0-win"
+      ],
+      "category": "한글",
+      "files": [
+        {
+          "op": "add",
+          "path": "FONT-LICENSE.txt",
+          "root": "install",
+          "sha256": "6658f7370cdb507a9115672ed543cab53be0b3512fd87da27bfde731e81b14b3",
+          "size": 4721
+        },
+        {
+          "op": "add",
+          "path": "UnionMax-KR-Patch-MANIFEST.json",
+          "root": "install",
+          "sha256": "59eeec250dd965085b246f7fd3bcc0e247baa82cff6c3ed3b2694f49eaae56ca",
+          "size": 5915
+        },
+        {
+          "op": "add",
+          "path": "game/fonts/Nanum-LICENSE.txt",
+          "root": "install",
+          "sha256": "98b068fe16a7c612bc66ecabc3ae8a9c927a445c5da55ff9c91012627fa481b7",
+          "size": 4587
+        },
+        {
+          "op": "add",
+          "path": "game/fonts/NanumGothic.ttf",
+          "root": "install",
+          "sha256": "48a28e97b34fc8e5b157657633670cd1b7de126cfc414da65ce9c3d5bc8be733",
+          "size": 4691820
+        },
+        {
+          "op": "add",
+          "path": "game/fonts/NanumGothicBold.ttf",
+          "root": "install",
+          "sha256": "454eb3f503f377782a99eb84fc4bb7dde22a0f075d41b47427737f2985053bc9",
+          "size": 4642244
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/all.png",
+          "root": "install",
+          "sha256": "6c0a1948c13f6f0f42d5adf65749a3e5aaeda521d8b15baf0a348fdeebbe3029",
+          "size": 396053
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/anwu.png",
+          "root": "install",
+          "sha256": "47a86db003ae6643ff5da5fa573cdcec6aa652e72961ec61bf03e7b4a6ca2f75",
+          "size": 372817
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/bl_store_clerk.png",
+          "root": "install",
+          "sha256": "6d4e10958ab63327a91d3a42034512f60d06ee293c0f4986a8aebc62690e9af5",
+          "size": 657603
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/boss.png",
+          "root": "install",
+          "sha256": "c887ed30f2fae14417e4388216149a549805a8aa0b536d3c5b734c1ab5d4f650",
+          "size": 334955
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/crowd.png",
+          "root": "install",
+          "sha256": "cf51cd090b6c196db31eb6c5eabe591b83db3c60920a1222d8d8661a93ce64ec",
+          "size": 374807
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/customer.png",
+          "root": "install",
+          "sha256": "bb0752388b9eb7984d170c32cd6fa2363c30e3da036166e4fc5152e02523eb55",
+          "size": 299461
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/garrett.png",
+          "root": "install",
+          "sha256": "af69b25c34991a8653cb1893a5b6412dd2b1699729f87c226bf412c7751add19",
+          "size": 465781
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/habagat.png",
+          "root": "install",
+          "sha256": "833d65e15ddd05275a6654673d88739b8ed989a692eac14ffd48e52fac2a51b0",
+          "size": 797950
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/lanciel.png",
+          "root": "install",
+          "sha256": "8dc33981ce94b028ebc604c39751b39dc451744d7a62c919be5c7b5407e69e60",
+          "size": 805278
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/makoa.png",
+          "root": "install",
+          "sha256": "7f6ba0ff505c2e7c2ac7a7bf8a97735c5c44f19ebaefc376bd6efebe21abade5",
+          "size": 821005
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/max.png",
+          "root": "install",
+          "sha256": "966bd1b736cfc80fe09a5e47c007b4d49530b5093feaba42e43d967da705e2e1",
+          "size": 372218
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/partier.png",
+          "root": "install",
+          "sha256": "02f3e6fbd5e5c52f9f77bf9ca350b6451a0fee506815935a6d74a74cf32b1d02",
+          "size": 871074
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/raffael.png",
+          "root": "install",
+          "sha256": "f74778b69c37482fc44372b12d2ab4252ace3a09c40d07168ee321ceb6a0a1e3",
+          "size": 486228
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/ryan.png",
+          "root": "install",
+          "sha256": "5211b9a1553a4c592dfa15030d353e95f9fa13cfc4b2a4ab7600912149742206",
+          "size": 595116
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/sett.png",
+          "root": "install",
+          "sha256": "6e2d5240e4de705a948af62ec5db8d79395203076f9d552399eeabedaf3c4c26",
+          "size": 441018
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/stranger.png",
+          "root": "install",
+          "sha256": "9b6d5dad22be46261bb6c7c9077e7fe39d467b2a3f1eb6324005e64969a0bb91",
+          "size": 523942
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/the_voice.png",
+          "root": "install",
+          "sha256": "d492c72a345f7f6156a05ab8238cee745b3cd2c937004c397a8d9d664c8f785a",
+          "size": 469037
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/vendor.png",
+          "root": "install",
+          "sha256": "4b8841709d66f505cefe1752881cce721af8634ad3adbd0e2fabf066eaae400e",
+          "size": 358274
+        },
+        {
+          "op": "add",
+          "path": "game/images/unionmax_kr/nameplates/xignis.png",
+          "root": "install",
+          "sha256": "fcafa32c5a460bd0bc74b0cf2bb032252a676eb6309fc3f704e5320b819e6d8f",
+          "size": 577972
+        },
+        {
+          "op": "add",
+          "path": "game/tl/korean/opening.rpy",
+          "root": "install",
+          "sha256": "74c27a02f76154d3ea13d2ec13573d9d06a5c292c9952ba7721b98868b287f96",
+          "size": 1429009
+        },
+        {
+          "op": "add",
+          "path": "game/tl/korean/strings.rpy",
+          "root": "install",
+          "sha256": "ebef4a9fb1bb386bb01a40beae53807fab98b5c640b4d0676e71c2f3afd6e35c",
+          "size": 109284
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr.rpy",
+          "root": "install",
+          "sha256": "a47b9fb4addee228f821a901d60e01ff5982bd6d8719e8383c487cbcf0d6e9ff",
+          "size": 1596
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_nameplates.rpy",
+          "root": "install",
+          "sha256": "9bfa21be2fb5325a67187076939e1226e5d4e17452a06cb4db4a2fcc6696144b",
+          "size": 61829
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_accessibility.rpy",
+          "root": "install",
+          "sha256": "db1a394fe5fce056a98701872e696573383cedb418866c7a887e53038f17ebae",
+          "size": 809
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_dynamic.rpy",
+          "root": "install",
+          "sha256": "ffd27983601afeab3bf393b690a20bec5a577c456add069ce4d011e27fcd77f8",
+          "size": 30878
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_gallery.rpy",
+          "root": "install",
+          "sha256": "2e06b4d11845da5c8d259efbe059ad00d6e267fc483f7f980652552d6c07a629",
+          "size": 30658
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_help.rpy",
+          "root": "install",
+          "sha256": "60eb2ecc6d71cb99bc9368c37f92c92a8e4cff40d1a3436ebbaec88bd1b24bd7",
+          "size": 22993
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_images.rpy",
+          "root": "install",
+          "sha256": "644fa4e0154646a28da70d8d18f4199c4b42d7eae9f1859e2a757d9ec69a094b",
+          "size": 494785
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_ui_screens.rpy",
+          "root": "install",
+          "sha256": "f23c6ab9636bfa2a2e455a213295531c840101a1c745dabdb1d2c640a9e6c330",
+          "size": 133423
+        },
+        {
+          "op": "add",
+          "path": "릴리스노트.txt",
+          "root": "install",
+          "sha256": "7f09b06033299c18c46874b6162a801e54a8bdf7cafb0eb2d897e6e1842a6023",
+          "size": 1486
+        },
+        {
+          "op": "add",
+          "path": "설치안내.txt",
+          "root": "install",
+          "sha256": "4cca4a372eb61d53abc0c299c6c7e9dd9898277f0e0b0a2cd0b0b8a083af8e01",
+          "size": 2266
+        },
+        {
+          "op": "add",
+          "path": "크레딧.txt",
+          "root": "install",
+          "sha256": "ae552aeb6b4c816eaf67285cc295c6c7e231c911270a4bd91aa55601f9e1acf1",
+          "size": 387
+        }
+      ],
+      "id": "unionmax-ko",
+      "name": "한글 패치",
+      "release": "1.0.2-test",
+      "requires": [],
+      "target": "unionmax"
+    },
+    {
+      "archive": {
+        "prefix": "",
+        "sha256": "6776f92653d5e82d436085a80cf944da79422b37796f4ffa48cdc405ed7e1e59",
+        "size": 9236,
+        "url": "https://github.com/naru-hut/naru-hut.github.io/releases/download/p-test-kr-1fc71ccdfa83cc75690ae1387f36be1906d40e1141a08ef63cb760e0a7869c48/patch-1fc71ccdfa83cc75690ae1387f36be1906d40e1141a08ef63cb760e0a7869c48.zip"
+      },
+      "builds": [
+        "1.0-win"
+      ],
+      "category": "공략",
+      "files": [
+        {
+          "op": "add",
+          "path": "UnionMax-KR-ChoiceGuide-MANIFEST.json",
+          "root": "install",
+          "sha256": "8a4005e7ddfc329b2cefcbe59a6eccbac05aa69f742fcefefe52131e589dbcf4",
+          "size": 634
+        },
+        {
+          "op": "add",
+          "path": "game/unionmax_kr_choice_guide.json",
+          "root": "install",
+          "sha256": "826336a3a1f1819229c009f9775a8452de42042dc5f08499eea2585640f77581",
+          "size": 53893
+        },
+        {
+          "op": "add",
+          "path": "game/zz_unionmax_kr_choice_guide.rpy",
+          "root": "install",
+          "sha256": "7f4318c3570b4d76983d840070ab61912e7968d20e410a169812f04bd8c80e12",
+          "size": 10539
+        },
+        {
+          "op": "add",
+          "path": "안내.txt",
+          "root": "install",
+          "sha256": "46ec2f7a67f9a142b8d34d6bc75c777e7aba7c003d473c6e8ab98eef155e96cd",
+          "size": 660
+        }
+      ],
+      "id": "unionmax-guide",
+      "name": "선택지 공략",
+      "release": "1.0.1-test",
+      "requires": [
+        {
+          "id": "unionmax-ko",
+          "release": "1.0.2-test"
+        }
+      ],
+      "target": "unionmax"
     }
   ],
-  "serial": 1,
+  "serial": 2,
   "source": {
     "id": "unionmax-test",
     "name": "나루 시험 소스"
@@ -375,7 +705,25 @@
         }
       ],
       "id": "unionmax",
-      "name": "UnionMax"
+      "name": "UnionMax",
+      "skin": {
+        "background": {
+          "sha256": "f1e57d494091214784b9f654fa345169d6eb089acdbb8a52d46008505cc660f1",
+          "size": 1171302
+        },
+        "character": {
+          "sha256": "053209e9385967648374f9d45fb94bb732eed54ae9493d4e480c081d1c16a1c2",
+          "size": 945298
+        },
+        "icon": {
+          "sha256": "64c788cffb634bd6aed8149615ebd075c6120bf67039b954da1431771b46b351",
+          "size": 55885
+        },
+        "logo": {
+          "sha256": "9c0f893895fc0f3d433106c557d0fc49ba2e51418b2babb356744106c73f80a6",
+          "size": 499854
+        }
+      }
     }
   ]
 }
