@@ -1,0 +1,69 @@
+/* Naru Patcher 디자인 토큰 일부 | 원본 SHA-256: f883c1c314e9a9b1ef5c94fba360f3e80fe52b521740e991f0c19d480ddbc4ce */
+/* 다크 테마 정본의 필요 토큰 사본
+ * 오로라: 나루 홈 머리처럼 넓은 브랜드 면에 사용하고 결을 함께 얹는다
+ * 결: 큰 그라데이션 면의 계단 현상을 흩으며 overlay와 불투명도 .06을 쓴다
+ * 등불: 그라데이션과 로고에만 쓰고 UI 강조색으로 쓰지 않는다
+ */
+:root {
+  --palette-gray-100: #ECEEF3;
+  --palette-gray-300: #C0C4CC;
+  --palette-gray-400: #999FA9;
+  --palette-gray-700: #3F4551;
+  --palette-gray-800: #282F3B;
+  --palette-gray-850: #202732;
+  --palette-gray-950: #121720;
+  --palette-gray-1000: #0C1118;
+  --palette-naru-400: #89AAEE;
+  --palette-naru-500: #6D8FE2;
+  --palette-naru-600: #5573CB;
+  --palette-naru-1000: #121439;
+  --palette-naru-700-rgb: 67 88 168;
+  --palette-deung-400-rgb: 234 172 112;
+  --dim-x0_5: 2px;
+  --dim-x1: 4px;
+  --dim-x2: 8px;
+  --dim-x3: 12px;
+  --dim-x4: 16px;
+  --dim-x5: 20px;
+  --dim-x6: 24px;
+  --dim-x8: 32px;
+  --dim-x10: 40px;
+  --dim-x12: 48px;
+  --dim-x16: 64px;
+  --radius-r1: 4px;
+  --radius-r2_5: 10px;
+  --radius-r3: 12px;
+  --font-family-base: "Pretendard Variable", Pretendard, "Malgun Gothic", "Apple SD Gothic Neo", "Segoe UI", sans-serif;
+  --font-size-t3: 13px;
+  --font-size-t4: 14px;
+  --font-size-t5: 16px;
+  --font-size-t7: 20px;
+  --line-height-t7: 27px;
+  --font-size-t8: 22px;
+  --font-size-t9: 24px;
+  --line-height-t9: 32px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --texture-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .6 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  --color-bg-layer-basement: var(--palette-gray-1000);
+  --color-bg-layer-default: var(--palette-gray-950);
+  --color-bg-brand-solid: var(--palette-naru-500);
+  --color-bg-brand-solid-pressed: var(--palette-naru-600);
+  --color-bg-disabled: var(--palette-gray-850);
+  --color-fg-neutral: var(--palette-gray-100);
+  --color-fg-neutral-muted: var(--palette-gray-300);
+  --color-fg-neutral-subtle: var(--palette-gray-400);
+  --color-fg-brand: var(--palette-naru-400);
+  --color-fg-on-brand-solid: #070D24;
+  --color-stroke-neutral-weak: var(--palette-gray-800);
+  --color-stroke-neutral-muted: var(--palette-gray-700);
+  --color-stroke-brand-solid: var(--palette-naru-500);
+  --color-stroke-focus-ring: var(--palette-naru-400);
+  --gradient-naru-aurora: radial-gradient(55% 140% at 6% 0%, rgb(var(--palette-naru-700-rgb) / .55) 0%, rgb(var(--palette-naru-700-rgb) / 0) 70%),
+    radial-gradient(45% 130% at 94% 115%, rgb(var(--palette-deung-400-rgb) / .3) 0%, rgb(var(--palette-deung-400-rgb) / 0) 70%),
+    linear-gradient(180deg in oklch, var(--palette-gray-1000) 0%, var(--palette-naru-1000) 100%);
+  --color-stroke-disabled: var(--color-stroke-neutral-muted);
+  --border-width-thin: 1px;
+  --border-width-focus: var(--dim-x0_5);
+  --focus-ring-offset: var(--dim-x1);
+}
